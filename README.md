@@ -26,7 +26,7 @@ A FastAPI interface is also included for real-time inference — upload an image
 Due to GitHub’s 100 MB file size limit, the trained model weights (model_best.pth, ~300 MB) are stored in Google Drive.
 
 🔗 Download Link:
-👉 model_best.pth (Google Drive)
+👉 https://drive.google.com/file/d/1yAswERmNYZwo-LABBKo8LNGy1b7UkHSE/view?usp=sharing (Google Drive)
 
 Once downloaded, place it inside the root project folder, like this:
 
@@ -34,12 +34,11 @@ Face-the-Future-Deepfake-ML-Challenge/
 │
 ├── model_best.pth          ← (place here)
 ├── src/
-├── app.py
 ├── requirements.txt
 ├── README.md
 └── poorvika2836.beai24.json
 
-# 🧱 5. Folder Structure
+# 🧱 4. Folder Structure
 
 After setting up, your project directory should look like this:
 
@@ -50,7 +49,7 @@ Face-the-Future-Deepfake-ML-Challenge/
 │   ├── train.py
 │   ├── inference.py
 │   └── prepare_labels.py
-│   └── app.py # FastAPI app
+│   └── app.py               # FastAPI app
 │                  
 ├── model_best.pth           # Downloaded model weights
 ├── poorvika2836.beai24.json # Prediction results
@@ -58,7 +57,7 @@ Face-the-Future-Deepfake-ML-Challenge/
 ├── poorvika2836_presentation.pptx
 └── README.md
 
-# 🚀 4. How to Open & Run the Project
+# 🚀 5. How to Open & Run the Project
 
 🧩 Clone the Repository
 
@@ -89,7 +88,7 @@ Then open your browser and visit:
 ➡️ http://127.0.0.1:8000/docs
 
 
-# 🧩 5. Summary
+# 🧩 6. Summary
 
 Goal: Detect AI-generated deepfake images.
 
